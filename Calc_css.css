@@ -1,0 +1,61 @@
+.container {
+  
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  border-style: solid ;
+  border-width: 1vh;
+  box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+  background-color: rgb(160, 226, 160);
+
+}
+
+#display {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+  font-style: italic;
+  color: rgb(6, 7, 7);
+  background-color: rgb(210, 231, 233);
+  border-style: solid;
+  border-color: aqua;
+  
+}
+
+.buttons {
+  display: grid;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid#999;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: rgb(0, 0, 0);
+  background-color: rgb(160, 226, 160);
+}
+
+.buttons>div {
+  border-top: 1px solid #999;
+  border-right: 1px solid#999;
+  background-color: rgb(255, 255, 255);
+}
+
+.button {
+  border: 0.5px solid #999;
+  line-height: 70px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+
+#equal {
+  background-color: rgb(236, 159, 14);
+  color: white;
+  color: rgb(25, 255, 255);
+}
+
+.button:hover {
+  background-color: #70c70c;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
